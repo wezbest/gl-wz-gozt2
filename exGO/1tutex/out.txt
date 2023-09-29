@@ -1,0 +1,99 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║                                                                      ║
+║                                                                      ║
+║             ███████╗ ████████╗ ██╗   ██╗ ██████╗  ██╗   ██╗          ║
+║             ██╔════╝ ╚══██╔══╝ ██║   ██║ ██╔══██╗ ╚██╗ ██╔╝          ║
+║             ███████╗    ██║    ██║   ██║ ██║  ██║  ╚████╔╝           ║
+║             ╚════██║    ██║    ██║   ██║ ██║  ██║   ╚██╔╝            ║
+║             ███████║    ██║    ╚██████╔╝ ██████╔╝    ██║             ║
+║             ╚══════╝    ╚═╝     ╚═════╝  ╚═════╝     ╚═╝             ║
+║                                                                      ║
+║                                                                      ║
+║                                                                      ║
+║                                                                      ║
+║                         Sun Aug 06 14:55:15 UTC                      ║
+║                                                                      ║
+║                      ZTMPANTY All Lessons below                      ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+
+Name Prining 
+
+My fetish is BootyAddict BootyAddict
+                                                                    
+	func Fu1() {                                                        
+		var myName = "BootyAddict"                                          
+		f.Println("My fetish is", myName, myName)                           
+	}                                                                   
+                                                                    
+	// In this function using var to define varibale which is not needed
+	                                                                    
+
+
+Type Declaration 
+
+My fetish is Sniffer Sniffer
+                                                                                    
+	func Fu2() {                                                                        
+		var fetish string = "Sniffer"                                                       
+		f.Println("My fetish is", fetish, fetish)                                           
+	}                                                                                   
+                                                                                    
+	// Here youc an see we are defining [Tyoe] for the variable which is being then used
+	                                                                                    
+
+
+Direct Assignment 
+
+My usrename is PantySniffer PantySniffer
+                                               
+	func Fu3() {                                   
+		userName := "PantySniffer"                     
+		f.Println("My usrename is", userName, userName)
+	}                                              
+                                               
+	// Here is a direct assignment                 
+	                                               
+
+
+Uninitialized Variable 
+
+The sum is =  0
+                                                                 
+	func Fu4() {                                                     
+		var sum int                                                      
+		f.Println("The sum is = ", sum)                                  
+	}                                                                
+                                                                 
+	// This is an uninitialized variable, the default value will be 0
+	                                                                 
+
+
+Mulitple Assignments 
+
+Big =  6 Booty =  9
+                                                            
+	func Fu5() {                                                
+		big, booty := 6,9                                           
+		f.Println("Big = ", big, "Booty = ", booty)                 
+	}                                                           
+                                                            
+	// This is a mutiple assignments with inferred types from go
+	                                                            
+
+
+OK Error Idiom 
+
+Big =  6 Booty =  9 This written to remove error 6
+                                                                                          
+	func Fu6() {                                                                              
+		sml, boty := 6,9                                                                          
+		byg, boty := 6,9                                                                          
+		f.Println("Big = ", sml, "Booty = ", boty, "This written to remove error", byg)           
+		                                                                                          
+		// This is illustrating how same varibale can be assigned two times in the same code block
+		// And it will have the new value                                                         
+	}                                                                                         
+	                                                                                          
