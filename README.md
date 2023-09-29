@@ -1,6 +1,4 @@
 
-<img src="./gwz/e.gif" width="150%" align="center">
-
 ---
 
 <h1 align="center"><code> GL-WZ-GOZT2 </code></h1>
