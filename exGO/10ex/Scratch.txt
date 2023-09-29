@@ -1,0 +1,23 @@
+***********
+
+// Writing a function to add an item to an array - taken from C
+- The following was the sugegstion 
+--- 
+func AddItem(SL []Prod, newItem Prod) []Prod {
+  SL = append(SL, newItem)
+  return SL
+}
+
+SL := []Prod{
+  {name: "Apple", cost: 100},
+  {name: "Banana", cost: 200},
+}
+
+newItem := Prod{
+  name: "Orange", 
+  cost: 150,
+}
+
+SL = AddItem(SL, newItem)
+
+**************

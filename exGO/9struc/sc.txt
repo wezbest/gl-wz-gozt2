@@ -1,0 +1,51 @@
+package main
+
+import (
+  "fmt"
+
+  "github.com/charmbracelet/lipgloss"
+)
+
+type User struct {
+  Name string
+  Age  int
+}
+
+func main() {
+  user := User{"John", 30}
+
+  textStyle := lipgloss.NewStyle().
+    Bold(true).
+    Foreground(lipgloss.Color("green"))
+
+  fmt.Println(textStyle.Render(fmt.Sprintf("Name: %s", user.Name)))  
+  fmt.Println(textStyle.Render(fmt.Sprintf("Age: %d", user.Age)))
+}
+
+--- Method 2 
+
+
+package main
+
+import "fmt"
+
+type user struct {
+  name string
+  age  int
+}
+
+func printUser(u user) {
+  fmt.Println("Name:", u.name)
+  fmt.Println("Age:", u.age)
+}
+
+func main() {
+  // Create a user struct
+  u := user{
+    name: "John",
+    age: 30,
+  }
+
+  // Pass the struct to the printUser function
+  printUser(u)
+}
