@@ -9,6 +9,6 @@ wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz
 echo "Unzip to location /usr/local"
 sudo tar -C /usr/local/go -xzf go1.21.1.linux-amd64.tar.gz
 echo "#Go Path" >> ~/.config/fish/config.fish
-echo "set -gx PATH /home/gitpod/go/bin:$PATH" >> ~/.config/fish/config.fish
+echo "set -gx PATH /usr/local/go/bin:$PATH" >> ~/.config/fish/config.fish
 export PATH=$PATH:/home/gitpod/go/bin
 rm go1.21.1.linux-amd64.tar.gz
