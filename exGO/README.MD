@@ -1,8 +1,5 @@
 
-
-![](../wz/j.mp4){width=100%}
-![](../wz/j2.mp4){width=100%}
-
+<img src="./sg.gif" width="100%" align="center">
 
 ---- 
 

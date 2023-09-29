@@ -8,9 +8,15 @@
 
 ----
 1. [Huh ?](#huh-)
+2. [Scratch Section](#scratch-section)
 
 ----
 
 # Huh ? 
 
 > Continuation of what mentioned yaya worka will be makings in the ElBRanchPussy 
+
+
+
+# Scratch Section
+- Writing to shit prevent vmshutdown
