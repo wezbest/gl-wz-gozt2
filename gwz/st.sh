@@ -96,4 +96,3 @@ echo "###### Add shit to config fish ##########"
 bash 
 echo "Pulling down config.fish --->"
 echo "source ~/.config/fish/config.fish" >> ~/.config/fish/config.fish
-curl  https://snips.sh/f/D5k7_EpJsa > ~/.config/fish/config.fish
