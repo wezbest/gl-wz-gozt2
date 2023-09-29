@@ -1,10 +1,10 @@
 #!/bin/fish
-/workspace/wz-gozt-1/wz/pnp.fish
-/workspace/wz-gozt-1/wz/fixrs.fish
-/workspace/wz-gozt-1/wz/st.sh
-/workspace/wz-gozt-1/wz/gop.fish
-/workspace/wz-gozt-1/wz/aryt.fish
-/workspace/wz-gozt-1/wz/tgpt.fish
-/workspace/wz-gozt-1/wz/bun.fish
+/workspaces/gl-wz-gozt2/gwz/pnp.fish``
+/workspaces/gl-wz-gozt2/gwz/fixrs.fish
+/workspaces/gl-wz-gozt2/gwz/st.sh
+/workspaces/gl-wz-gozt2/gwz/gop.fish
+/workspaces/gl-wz-gozt2/gwz/aryt.fish
+/workspaces/gl-wz-gozt2/gwz/tgpt.fish
+/workspaces/gl-wz-gozt2/gwz/bun.fish
 
 
