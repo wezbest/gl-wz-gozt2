@@ -11,5 +11,5 @@ import (
 // This will have the main functions
 func main() {
 
-	L.Dia1()
+	L.Dia1("Booty Fart")
 }

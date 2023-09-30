@@ -27,6 +27,6 @@ var (
 		Align(lp.Center)
 )
 
-func Dia1() {
-	f.Println(dialogBoxStyle.Render("Command 1"))
+func Dia1(s string) {
+	f.Println(dialogBoxStyle.Render(s))
 }
