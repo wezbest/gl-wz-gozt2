@@ -26,6 +26,7 @@
 Pro | What ? 
 |:--:|:--:|
 [`testss`](./testss/) | This will contain various tests you are doing - was made when trying to understand liplgoss properly
+[`c1`](./c1/) | Practicing the 63_Exercise of readers adding your own shizz
 
 # Other Notes 
 

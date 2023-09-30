@@ -25,6 +25,15 @@ const (
 	ex = "Exit"
 )
 
+// Variable This is for the command help
+
+var (
+	instruction = `
+	Press CTRL + D or type "EXIT" to exit at any time
+	Available commands  - Fuck , Suck, Rape, Exit
+	`
+)
+
 // Actual Function
 
 func Mc1() {
@@ -38,7 +47,7 @@ func Mc1() {
 	numLines := 0
 	numComs := 0
 
-	f.Println("Press CTRL+D or type \"EXIT\" to exit at any time" + "\n\n")
+	T1(instruction)
 	// Now to enter into the function
 	for scanner.Scan() {
 		// First checking if CTRL+D is pressed
