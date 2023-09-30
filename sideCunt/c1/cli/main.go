@@ -1,14 +1,15 @@
 /*
-MMain Entry point for the program 
+MMain Entry point for the program
 */
 
-package main 
+package main
 
 import (
-	f "fmt"
+	L "c/lib"
 )
 
 // This will have the main functions
 func main() {
-	f.Println("Hello World")
+
+	L.Dia1()
 }
