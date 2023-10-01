@@ -19,7 +19,7 @@ _______$$$_____________$$$$$$$$$$$________$$$___
 _____$$$________________$$$$$$$$$$________$$$$$$
 __$$$$$$__________________$$$$$$$_______________
 
-main Functions to use 
+main Functions to use
 1. Banr() - banner function
 2. Headr() - header function
 3. Texc() - text function
@@ -30,7 +30,6 @@ main Functions to use
 8. T3() - simple color string
 
 */
-
 
 package lib
 
@@ -58,15 +57,31 @@ var (
 	liq = lg.NewStyle().
 		Foreground(lg.Color("#16FF00")).
 		Background(lg.Color("#2D033B")).
-		Width(100).Align(lg.Center).Bold(true).
+		Width(100).Bold(true).
 		Blink(true).Border(lg.DoubleBorder(), true, true, true, true).
 		PaddingTop(1).
 		PaddingBottom(1).
 		BorderForeground(lg.Color("#FC2947"))
 
-		// Replace banner bbw ass spread licking here 
+		// Replace banner bbw ass spread licking here
 	banner = `
-WRITE SHIT HERE 
+	c,.,.dcldooooccc;..   O  ,xx.    O;        ▀█▀ █▄█ █▀█ █▀▀  
+	.,.'.;xx0OOO0OOOkkkxl;;0    O,    :x        █   █  █▀▀ ██▄  
+	,''.'kKXXOkdllclldOk00O0k   0;.   :x   
+   .;,';xKl:,:xoooooloocolkokkd,ld.   ld        █▀▀ █▀▄▀█ █▄▄ █▀▀ █▀▄ █▀▄ █ █▄ █ █▀▀ █▀▀
+   .::,oOl;;,'ddxdxooxOkdoc:;:lxOOl'. oo        ██▄ █ ▀ █ █▄█ ██▄ █▄▀ █▄▀ █ █ ▀█ █▄█ ▄▄█
+   .cccOlloc;;:dddooddc:::;::';;;;,dxdOl   
+   'oddXdd:c:o:cl:::;c:,,:''',,::;''';xk,  
+   cOl0X',looooodxxlclc;;;;;,,,;l.'.'.,,xx.
+   dK00l          .,clooodl,'.',c,....,',od
+   :.kKK                 .,lool,:,....,cooX
+   :l.oX0o,              .    'xx,oolc:. .O
+	;odN0oXXd.                .0xc.      .K
+	 .xdXWkc:.              .od'.        Ox
+	  .kNXKWO;              x:'.        xl.
+		XNWXOk,     .       x.        .k,  
+		,0OXk.             l;.       cx.   
+		  x.    .         ;o.      ;d:     
 `
 
 	// Style for Headr()
@@ -76,7 +91,7 @@ WRITE SHIT HERE
 		Bold(true).Underline(true).
 		PaddingTop(1).PaddingBottom(1)
 
-		// Style for Texc()
+	// Style for Texc()
 	texco = lg.NewStyle().
 		Width(100).Align(lg.Right).
 		Background(lg.Color("#3A1078")).

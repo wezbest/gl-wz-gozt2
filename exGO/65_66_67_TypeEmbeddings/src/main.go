@@ -2,20 +2,18 @@
 Write WTF it is
 */
 
-package main 
+package main
 
 import (
-	f "fmt"
-	L "rape/lib"
-	Ho "rape/ho"
 	Ex "rape/ex"
+	Ho "rape/ho"
+	L "rape/lib"
 )
 
 func main() {
-	f.Println("❤️")
+	L.Banr("Type Embedding")
 	L.T1("❤️")
 	Ho.Meho()
 	Ex.Given()
-
 
 }
