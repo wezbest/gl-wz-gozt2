@@ -1,5 +1,5 @@
 
-<img src="./gwz/e.gif" width="150%" align="center">
+<img src="./gwz/bb1.gif" width="100%" align="center">
 
 ---
 
@@ -8,15 +8,15 @@
 
 ----
 1. [Huh ?](#huh-)
-2. [Scratch Section](#scratch-section)
+2. [DirPanty](#dirpanty)
 
 ----
 
 # Huh ? 
 
-> Continuation of what mentioned yaya worka will be makings in the ElBRanchPussy 
+> This Br is for testing mostly other shizz not touchington 
 
+# DirPanty 
 
+> List of panty sniffing directories 
 
-# Scratch Section
-- Writing to shit prevent vmshutdown
