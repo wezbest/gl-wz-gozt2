@@ -1,0 +1,29 @@
+When trying to run the tests here type 
+
+> go test -v ./ho 
+=== RUN   TestAddQue
+--- PASS: TestAddQue (0.00s)
+=== RUN   TestNext
+--- PASS: TestNext (0.00s)
+PASS
+ok      20testing/ho    (cached)
+
+--- 
+
+You were getting errors when you typed 
+> go test -v ho/ho-test.go 
+# command-line-arguments [command-line-arguments.test]
+ho/ho_test.go:14:7: undefined: New
+ho/ho_test.go:32:7: undefined: New
+FAIL    command-line-arguments [build failed]
+FAIL
+>> Problem here is that it couldnt see the ho.go file 
+so the above method puts it into scope 
+\
+
+--- 
+
+There is also yet another method you can execute the test 
+> go into the directory wih the foo.go and foo_test.go 
+> go test -v 
+- This will execute all the tests without have to describe the paths
