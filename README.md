@@ -20,3 +20,7 @@
 
 > List of panty sniffing directories 
 
+W ? | Desc 
+|:---:|:---|
+[`SolSniff`](./SolSnifff/) | Solidityies Testing of spreadherass and suckherbootyholes
+
