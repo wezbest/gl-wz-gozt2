@@ -1,5 +1,5 @@
 
-<img src="./gwz/bb1.gif" width="100%" align="center">
+<img src="./gwz/bb1.gif" width="40%" align="center">
 
 ---
 
