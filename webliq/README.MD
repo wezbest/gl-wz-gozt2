@@ -22,5 +22,5 @@ Group of smelly and stink female asses
 
 W | Desc
 |:--:|:--:|
-
+[`thirdasssniff`](./thirdasssnifff/)| Testing out [`thirdweb`](https://thirdweb.com/)starter project , project was run with `bux thirdweb create` , to deploy use `bun run dev` , uncertain if they have that turbo repo thing , and u need to understand what that is exactly
 
