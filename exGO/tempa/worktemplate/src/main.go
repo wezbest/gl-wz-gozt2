@@ -2,25 +2,23 @@
 Write WTF it is
 */
 
-package main 
+package main
 
 import (
 	f "fmt"
-	L "rape/lib"
-	Ho "rape/ho"
 	Ex "rape/ex"
-	C "github.com/fatih/color"
+	Ho "rape/ho"
+	L "rape/lib"
 )
 
 /*
-Define Colors withe following 
+Define Colors withe following
 */
-
 
 func main() {
 	f.Println("❤️")
 	L.T1("❤️")
 	Ho.Meho()
 	Ex.Given()
+	L.FatihColorsShow()
 }
-
