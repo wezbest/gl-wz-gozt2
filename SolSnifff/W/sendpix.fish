@@ -155,7 +155,7 @@ echo "DONE W1-->W1"
 echo "--------------------------------------"
 echo "--------------------------------------"
 echo "--------------------------------------"
-echo (set_color FF55BB)"Sending Mesages from W2-->W2 Self"
+echo "Sending Mesages from W2-->W2 Self"
 echo "--------------------------------------"
 cast send \
     $W2 \
