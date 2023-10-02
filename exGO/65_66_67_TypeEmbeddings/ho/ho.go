@@ -32,3 +32,24 @@ const (
 type BeltSize int 
 type Shipping int 
 
+// Iota patterns to get strings for BeltSize 
+func (b BeltSize) String() string {
+	return []string{"Small", "Medium", "Large"}[b]
+}
+
+// Iota patterns to get strings for Shipping Method 
+func (b Shipping) String() string {
+	return []string{"Ground", "Air"}[b]
+}
+
+// Creating interface for BeltSize 
+type Conveyor interface {
+	Convey() BeltSize 
+}
+
+// Create interface for choosing the type of shipping method 
+type Shipper interface {
+	Ship() Shipping
+}
+
+// 
