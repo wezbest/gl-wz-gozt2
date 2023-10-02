@@ -37,14 +37,14 @@ const (
 type BeltSize int
 type Shipping int
 
-// Iota patterns to get strings for  - Enumeration pattern 
+// Iota patterns to get strings for  - Enumeration pattern
 func (b BeltSize) String() string { // This is the recommended method for enumeration
 	return []string{"Small", "Medium", "Large"}[b]
 }
 
 // Iota patterns to get strings for Shipping Method
 func (b Shipping) String() string {
-	return []string{"Ground", "Air"}[b]
+	return []string{"Ground", "Air"}[b] // This is the recommended method for enumeration
 }
 
 // Creating interface for BeltSize
