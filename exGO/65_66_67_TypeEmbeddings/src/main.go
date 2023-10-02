@@ -12,7 +12,8 @@ import (
 
 func main() {
 	L.Banr("Type Embedding")
-	L.T1("❤️")
+	
+	L.Headr("Demo Ex")
 	Ho.Meho()
 	Ex.Given()
 
