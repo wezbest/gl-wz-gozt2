@@ -37,8 +37,8 @@ const (
 type BeltSize int
 type Shipping int
 
-// Iota patterns to get strings for BeltSize
-func (b BeltSize) String() string {
+// Iota patterns to get strings for  - Enumeration pattern 
+func (b BeltSize) String() string { // This is the recommended method for enumeration
 	return []string{"Small", "Medium", "Large"}[b]
 }
 
