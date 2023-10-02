@@ -12,9 +12,11 @@ import (
 
 func main() {
 	L.Banr("Type Embedding")
-	
+
 	L.Headr("Demo Ex")
 	Ho.Meho()
-	Ex.Given()
+
+	L.Headr("Given Solutions")
+	Ex.W1func()
 
 }
