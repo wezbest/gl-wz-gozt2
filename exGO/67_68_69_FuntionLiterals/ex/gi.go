@@ -1,5 +1,5 @@
 /*
-Given solution 
+Excercise solution from q.txt
 */
 
 package ex
@@ -11,3 +11,4 @@ import (
 func Given() {
 	f.Println("❤️")
 }
+
