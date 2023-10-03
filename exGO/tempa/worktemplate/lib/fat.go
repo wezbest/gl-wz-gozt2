@@ -16,8 +16,10 @@ func FatihColorsShow() {
 	// Defining all the fatih colors
 	cr := C.New(C.FgRed).SprintFunc()
 	chr := C.New(C.FgHiRed).SprintFunc()
+	chrb := C.New(C.FgHiRed, C.Bold).SprintFunc()
 	cg := C.New(C.FgGreen).SprintFunc()
 	chg := C.New(C.FgHiGreen).SprintFunc()
+	chgbu := C.New(C.FgHiGreen, C.Bold, C.Underline).SprintFunc()
 	cy := C.New(C.FgYellow).SprintFunc()
 	chy := C.New(C.FgHiYellow).SprintFunc()
 	cb := C.New(C.FgBlue).SprintFunc()
@@ -34,8 +36,10 @@ func FatihColorsShow() {
 
 	f.Printf(cr("This Red 			:%v\n"), cr("Red"))
 	f.Printf(chr("This HIRed 		:%v\n"), chr("HiRed"))
+	f.Printf(chrb("This HIRed 		:%v\n"), chrb("HiRedBold"))
 	f.Printf(cg("This Green  		:%v\n"), cg("Green"))
 	f.Printf(chg("This HiGreen  	:%v\n"), chg("HiGreen"))
+	f.Printf(chgbu("This HiGreen Bold Underline  	:%v\n"), chgbu("HiGreen"))
 	f.Printf(cy("This Yellow 		:%v\n"), cy("Yellow"))
 	f.Printf(chy("This HiYellow 	:%v\n"), chy("HiYellow"))
 	f.Printf(cb("This Blue 			:%v\n"), cb("Blue"))
