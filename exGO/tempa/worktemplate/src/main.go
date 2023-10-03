@@ -20,5 +20,7 @@ func main() {
 	L.T1("❤️")
 	Ho.Meho()
 	Ex.Given()
+
+	// You can remove this function it is for show only
 	L.FatihColorsShow()
 }
