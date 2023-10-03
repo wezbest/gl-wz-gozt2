@@ -16,7 +16,8 @@ Define Colors withe following
 
 func main() {
 	L.Banr("Function Literals")
-	L.T1("❤️")
+
+	L.Headr("Demo Execercise")
 	Ho.Meho()
 	Ex.Given()
 
