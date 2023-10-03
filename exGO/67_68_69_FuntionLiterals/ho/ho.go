@@ -35,7 +35,8 @@ func MainOne() {
 		return lhs - rhs
 	}))
 
-	// note this is disclosure since we are assigning function to variables
+	// note this is disclosure since we are assigning function to variables 
+	// Anonymous function
 	mul := func(lhs, rhs int) int {
 		fmt.Printf("Multiplying %v * %v =", lhs, rhs)
 		return lhs * rhs
