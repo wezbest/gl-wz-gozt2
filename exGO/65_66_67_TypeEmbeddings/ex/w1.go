@@ -45,6 +45,16 @@ Logic is here belopw
 type Bytes int
 type Celcius float32
 
+// -----------------------------------------------------------
+/*
+These are being embedded in line 22 
+type Dashboard struct {
+	BandwidthUsage
+	CpuTemp
+	MemoryUsage
+}
+And then they are being used in the receiver function in L35 - L37
+*/
 type BandwidthUsage struct {
 	amount []Bytes
 }
@@ -56,6 +66,8 @@ type CpuTemp struct {
 type MemoryUsage struct {
 	amount []Bytes
 }
+
+// ------------------------------------------------------------
 
 /*
 This is the actual work which you are doing
