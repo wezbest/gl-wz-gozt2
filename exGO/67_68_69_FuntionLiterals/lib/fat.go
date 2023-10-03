@@ -63,3 +63,11 @@ func FatihColorsShow() {
 	f.Printf(chwc("This HiWhite CrossedOut 	:%v\n"), chwc("HiWhite"))
 
 }
+
+// Testing function for the color
+// You cant use verbs using this method so better to declare it within your main function
+
+func Colo1(s string) {
+	cr := C.New(C.FgRed).SprintFunc()
+	f.Println(cr(s))
+}

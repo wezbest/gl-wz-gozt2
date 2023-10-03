@@ -66,7 +66,10 @@ var (
 
 		// Replace banner bbw ass spread licking here 
 	banner = `
-WRITE SHIT HERE 
+
+	█▀▀ █ █ █▄ █ █▀▀   █   █ ▀█▀ █▀▀ █▀█ ▄▀█ █   █▀▀
+	█▀  █▄█ █ ▀█ █▄▄   █▄▄ █  █  ██▄ █▀▄ █▀█ █▄▄ ▄▄█
+   
 `
 
 	// Style for Headr()
