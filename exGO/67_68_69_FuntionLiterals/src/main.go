@@ -20,6 +20,4 @@ func main() {
 	Ho.Meho()
 	Ex.Given()
 
-	L.Colo1("Function Colors %v")
-
 }
