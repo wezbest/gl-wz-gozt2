@@ -21,9 +21,20 @@ type LineCallBack func(line string)
 
 // Actual function which is going to incorporate the type alias above
 func lineIterator(lines []string, callback LineCallBack) {
-	for _, line := range lines {
+	for _, line := range lines { // Original solution uses  c style loop 
 		callback(line)
 	}
+
+	/*
+	- This method uses the [i] , which represents an index 
+	When asking cdeum - It said c style loop has moe control , obv since you can control 
+	the steps via ( i++) and other conditions
+	for lineIterator(lines []string, callback LineCallBack) {
+		for i := 0; i < len(lines); i++ {
+			callback(lines[i])
+		}
+	}
+	*/
 }
 
 func mainFN() {
