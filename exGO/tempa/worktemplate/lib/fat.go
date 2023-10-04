@@ -63,3 +63,5 @@ func FatihColorsShow() {
 	f.Printf(chwc("This HiWhite CrossedOut 	:%v\n"), chwc("HiWhite"))
 
 }
+
+// Optimized version of this as suggested by codeium is using maps 
