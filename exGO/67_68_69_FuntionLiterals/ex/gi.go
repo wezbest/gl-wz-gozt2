@@ -34,6 +34,8 @@ func mainFN() {
 		"12 spaces,",
 		"and 4 punctuation marks in these lines of text!",
 	}
+	
+	// These are the counters which are being used in lineFunc closure 
 	letters := 0
 	numbers := 0
 	punct := 0
