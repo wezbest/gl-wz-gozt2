@@ -25,6 +25,14 @@ func compute(lhs, rhs int,
 	return op(lhs, rhs)
 }
 
+// This is going to be the computer function which also has a type embedding from above
+type op func(lhs, rhs int) int
+
+func compute2(lhs, rhs int, op op) int {
+	fmt.Printf("Running a computation with %v & %v\n", lhs, rhs)
+	return op(lhs, rhs)
+}
+
 func MainOne() {
 
 	// This is calling the function above
@@ -35,8 +43,8 @@ func MainOne() {
 		return lhs - rhs
 	}))
 
-	// note this is disclosure since we are assigning function to variables 
-	// Anonymous function - Closure 
+	// note this is disclosure since we are assigning function to variables
+	// Anonymous function - Closure
 	mul := func(lhs, rhs int) int {
 		fmt.Printf("Multiplying %v * %v =", lhs, rhs)
 		return lhs * rhs
@@ -44,4 +52,6 @@ func MainOne() {
 
 	fmt.Println(compute(3, 3, mul))
 
+	// This is adding the same compute function with the new one
+	fmt.Println("This is second compute with type embedding :",compute2(3, 3, mul))
 }
