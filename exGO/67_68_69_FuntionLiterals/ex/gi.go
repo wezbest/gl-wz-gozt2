@@ -52,12 +52,14 @@ func mainFN() {
 	punct := 0
 	spaces := 0
 
+	// This is the closure which is being called in the lineIterator function
 	lineFunc := func(line string) {
 
 		// going through each line  and the function should run five times
+		// because  we will iterate the lines slice with this closure 
 		for _, r := range line {
 			if unicode.IsLetter(r) {
-				letters++
+				letters++ // Note this can also be written as letter +=1
 			}
 			if unicode.IsDigit(r) {
 				numbers++
